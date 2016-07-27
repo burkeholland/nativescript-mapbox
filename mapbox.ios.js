@@ -138,7 +138,10 @@ mapbox.setCenter = function (arg) {
       var lat = arg.lat;
       var lng = arg.lng;
       var coordinate = CLLocationCoordinate2DMake(lat, lng);
-      mapbox.mapView.setCenterCoordinateAnimated(coordinate, animated);
+      var zoom = arg.zoomLevel || mapbox.mapView.zoomLevel;
+
+      mapbox.mapView.setCenterCoordinateZoomLevelAnimated(coordinate, zoom, animated);
+    
       resolve();
     } catch (ex) {
       console.log("Error in mapbox.setCenter: " + ex);

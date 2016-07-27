@@ -168,12 +168,17 @@ declare module "nativescript-mapbox" {
       duration?: number;
     }
 
+    export interface CenterOptions {
+      target: LatLng;
+      zoomLevel?: number;
+    }
+
     export function show(options: ShowOptions): Promise<any>;
     export function hide(): Promise<any>;
 
     export function addMarkers(markers: AddMarkersOption[]): Promise<any>;
 
-    export function setCenter(arg: LatLng): Promise<any>;
+    export function setCenter(arg: CenterOptions): Promise<any>;
     export function getCenter(): Promise<LatLng>;
 
     export function setZoomLevel(arg: SetZoomLevelOptions): Promise<any>;

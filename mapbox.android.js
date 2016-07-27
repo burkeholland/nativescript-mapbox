@@ -246,8 +246,10 @@ mapbox.setCenter = function (arg) {
   return new Promise(function (resolve, reject) {
     try {
 
+      var zoom = arg.zoom || mapbox.mapboxMap.getCameraPosition().zoom;
+
       var cameraPosition = new com.mapbox.mapboxsdk.camera.CameraPosition.Builder().target(
-            new com.mapbox.mapboxsdk.geometry.LatLng(arg.lat, arg.lng)).build();
+            new com.mapbox.mapboxsdk.geometry.LatLng(arg.lat, arg.lng)).zoom(zoom).build();
 
       if (arg.animated === true) {
         mapbox.mapboxMap.animateCamera(

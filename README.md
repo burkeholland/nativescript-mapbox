@@ -123,7 +123,8 @@ Also, all functions support promises, but we're leaving out the `.then()` stuff 
       {
         lat: 52.3602160, // mandatory
         lng: 4.8891680, // mandatory
-        animated: false // default true
+        animated: false // default true,
+        zoomLevel: 10 // optional, 0 - 20, defaults to current map zoom level
       }
   )
 ```
