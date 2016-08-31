@@ -1,6 +1,0 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
-  <StackLayout>
-    <Label text="I'm a label above the mapbox" />
-    <m:MapBox mapReady="onMapReady"></m:MapBox>
-  </StackLayout>
-</Page>

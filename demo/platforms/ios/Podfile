@@ -1,8 +1,0 @@
-use_frameworks!
-
-target "demo" do
-# Begin Podfile - /Users/burkeholland/dev/burkeholland/nativescript-mapbox/demo/node_modules/nativescript-mapbox/platforms/ios/Podfile 
- pod 'Mapbox-iOS-SDK', '~> 3.2' 
- # End Podfile 
-
-end

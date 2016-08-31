@@ -1,5 +1,8 @@
 declare module "nativescript-mapbox" {
 
+    import view = require("ui/core/view");
+    import { Property } from "ui/core/dependency-observable";
+
     /**
      * The allowed values for show.style
      */
@@ -11,6 +14,28 @@ declare module "nativescript-mapbox" {
       HYBRID, // deprecated, use SATELLITE_STREETS
       SATELLITE_STREETS,
       STREETS
+    }
+
+    export class MapBox extends view.View {
+      
+      public static latitudeProperty: Property; 
+      public static longitudeProperty: Property;
+      public static zoomProperty: Property;
+
+      public latitude: number;
+      public longitude: number;
+      public zoom: number;
+
+      public static mapReadyEvent: string;
+
+      public ios: any;
+
+      public android: any;
+
+      public mapBox: any;
+
+      public setCenter(arg: any): Promise<any>;
+      public getZoomLevel(): void;
     }
 
     export interface LatLng {

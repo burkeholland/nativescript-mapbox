@@ -1,2 +1,8 @@
 .idea
 .vscode
+node_modules
+demo/node_modules
+demo/platforms
+demo/hooks
+demo/lib
+npm-debug.log
