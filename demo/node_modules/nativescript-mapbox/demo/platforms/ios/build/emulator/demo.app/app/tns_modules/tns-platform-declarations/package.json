@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "tns-platform-declarations",
+      "/Users/burkeholland/dev/burkeholland/nativescript-mapbox/demo"
+    ]
+  ],
+  "_from": "tns-platform-declarations@*",
+  "_id": "tns-platform-declarations@2.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/tns-platform-declarations",
+  "_nodeVersion": "4.4.5",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/tns-platform-declarations-2.2.0.tgz_1470832717028_0.2830832083709538"
+  },
+  "_npmUser": {
+    "email": "vladimir.enchev@gmail.com",
+    "name": "enchev"
+  },
+  "_npmVersion": "2.15.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "tns-platform-declarations",
+    "raw": "tns-platform-declarations",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/tns-platform-declarations/-/tns-platform-declarations-2.2.0.tgz",
+  "_shasum": "264dad652c547c57a3356fef5343d16e3ad6d770",
+  "_shrinkwrap": null,
+  "_spec": "tns-platform-declarations",
+  "_where": "/Users/burkeholland/dev/burkeholland/nativescript-mapbox/demo",
+  "author": {
+    "email": "support@telerik.com",
+    "name": "Telerik",
+    "url": "http://www.telerik.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/NativeScript/issues"
+  },
+  "dependencies": {},
+  "description": "Platform-specific TypeScript declarations for NativeScript for accessing native objects",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "264dad652c547c57a3356fef5343d16e3ad6d770",
+    "tarball": "https://registry.npmjs.org/tns-platform-declarations/-/tns-platform-declarations-2.2.0.tgz"
+  },
+  "homepage": "https://github.com/NativeScript/NativeScript#readme",
+  "keywords": [
+    "NativeScript",
+    "TypeScript",
+    "declarations",
+    "native",
+    "ns",
+    "platform-specific",
+    "tns",
+    "ts"
+  ],
+  "license": "Apache-2.0",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "enchev",
+      "email": "vladimir.enchev@gmail.com"
+    },
+    {
+      "name": "erjangavalji",
+      "email": "erjan.gavalji@gmail.com"
+    },
+    {
+      "name": "hamorphis",
+      "email": "rossen.hristov@progress.com"
+    },
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "ligaz",
+      "email": "stefan.dobrev@gmail.com"
+    },
+    {
+      "name": "sdobrev",
+      "email": "stefan.dobrev@gmail.com"
+    }
+  ],
+  "name": "tns-platform-declarations",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NativeScript/NativeScript.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.2.0"
+}
